@@ -1,0 +1,27 @@
+body{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  flex-direction: row;
+flex-wrap: wrap;
+
+}
+#resize-button{
+  height: 50px;
+  width: 100px;
+}
+#grid-container{
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+}
+
+.grid-item {
+  padding-bottom: 100%;
+  border: 2px solid red;
+}
+
+button{
+  margin-top: 300px;
+  
+}
